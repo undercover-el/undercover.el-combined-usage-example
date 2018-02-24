@@ -1,5 +1,5 @@
 
-(require 'undercover-init.el)
+(load-file "./tests/undercover-init.el")
 (require 'undercover.el-combined-usage-example)
 
 (describe "Function: `multiply'"
